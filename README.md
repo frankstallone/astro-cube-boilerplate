@@ -3,7 +3,9 @@
 Based on the [CUBE CSS Boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate).
 
 Uses:
+- [Astro](https://astro.build/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Utopia](https://utopia.fyi/)
 - [Cube CSS](https://cube.fyi/)
 - [Every Layouts](https://every-layout.dev/)
 
