@@ -8,15 +8,8 @@
 @import 'global/variables.css';
 @import 'global/global-styles.css';
 /* 
-Cannot get the @import-glob to work. Complains about the order, then when you get the order right, it doesn't include any of the files.
-
-[WARN] [vite] [vite:css] @import must precede all other statements (besides @charset or empty @layer)
-11 |  @import-glob 'blocks/*.css';
-12 |  @import-glob 'components/*.css';
-13 |  @import-glob 'utilities/*.css';
-   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-14 |  
-15 |  @import 'tailwindcss/utilities';
+See issue: https://github.com/frankstallone/astro-cube-boilerplate/issues/1
+Reference source: https://github.com/Set-Creative-Studio/cube-boilerplate/blob/main/src/css/global.css#L11
 
 @import-glob 'blocks/*.css';
 @import-glob 'components/*.css';
