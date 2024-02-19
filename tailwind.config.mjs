@@ -27,7 +27,7 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	// Add color classes to safe list so they are always generated
 	safelist: [],
-	// Remove this empty presets array if you want Tailwind to create more classes than simply the design tokens
+	// An explicit empty presets array "removes" the default theme.
 	presets: [],
 	theme: {
 	  screens: {
