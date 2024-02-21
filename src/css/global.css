@@ -17,9 +17,11 @@ Reference source: https://github.com/Set-Creative-Studio/cube-boilerplate/blob/m
 */
 
 @import 'blocks/prose.css';
+@import 'components/box.css';
 @import 'components/cluster.css';
 @import 'components/flow.css';
 @import 'components/grid.css';
+@import 'components/icon.css';
 @import 'components/repel.css';
 @import 'components/sidebar.css';
 @import 'components/switcher.css';

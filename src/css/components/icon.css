@@ -1,0 +1,21 @@
+/* 
+ICON
+From Every Layout: https://every-layout.dev/layouts/icon/
+*/
+
+.icon {
+    width: 0.75em;
+    width: 1cap;
+    height: 0.75em;
+    height: 1cap;
+  }
+  
+  .with-icon {
+    display: inline-flex;
+    align-items: baseline;
+  }
+  
+  .with-icon .icon {
+    margin-inline-end: 1rem;
+  }
+  
