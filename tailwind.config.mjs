@@ -27,8 +27,6 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	// Add color classes to safe list so they are always generated
 	safelist: [],
-	// An explicit empty presets array "removes" the default theme.
-	presets: [],
 	theme: {
 	  screens: {
 		sm: `${viewportTokens.min}px`,
