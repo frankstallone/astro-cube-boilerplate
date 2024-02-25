@@ -1,13 +1,15 @@
 # Astro CUBE CSS Boilerplate
 
-Based on the [CUBE CSS Boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate).
+Based on the [CUBE CSS Boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate). 
+
+There's value to Tailwind utility classes, and a structured CSS methodology. This project gives you the best of both. A starting point for a modern web project, using Astro, Utopia, Cube CSS, Every Layouts, and Tailwind CSS.
 
 Uses:
 - [Astro](https://astro.build/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [Utopia](https://utopia.fyi/)
 - [Cube CSS](https://cube.fyi/)
 - [Every Layouts](https://every-layout.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 Read more from Andy Bell's [A CSS project boilerplate
 ](https://piccalil.li/blog/a-css-project-boilerplate/).
