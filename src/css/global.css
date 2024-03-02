@@ -16,17 +16,17 @@ Reference source: https://github.com/Set-Creative-Studio/cube-boilerplate/blob/m
 @import-glob 'utilities/*.css'; 
 */
 
-@import 'blocks/prose.css';
-@import 'components/box.css';
-@import 'components/cluster.css';
-@import 'components/flow.css';
-@import 'components/grid.css';
-@import 'components/icon.css';
-@import 'components/repel.css';
-@import 'components/sidebar.css';
-@import 'components/switcher.css';
-@import 'components/wrapper.css';
-@import 'utilities/region.css';
-@import 'utilities/visually-hidden.css';
+@import 'blocks/prose.css' layer(components);
+@import 'components/box.css' layer(components);
+@import 'components/cluster.css' layer(components);
+@import 'components/flow.css' layer(components);
+@import 'components/grid.css' layer(components);
+@import 'components/icon.css' layer(components);
+@import 'components/repel.css' layer(components);
+@import 'components/sidebar.css' layer(components);
+@import 'components/switcher.css' layer(components);
+@import 'components/wrapper.css' layer(components);
+@import 'utilities/region.css' layer(components);
+@import 'utilities/visually-hidden.css' layer(components);
 
 @import 'tailwindcss/utilities';
