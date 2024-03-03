@@ -11,9 +11,9 @@
 See issue: https://github.com/frankstallone/astro-cube-boilerplate/issues/1
 Reference source: https://github.com/Set-Creative-Studio/cube-boilerplate/blob/main/src/css/global.css#L11
 
-@import-glob 'blocks/*.css';
-@import-glob 'components/*.css';
-@import-glob 'utilities/*.css'; 
+@import-glob 'blocks/*.css' layer(components);
+@import-glob 'components/*.css' layer(components);
+@import-glob 'utilities/*.css' layer(components); 
 */
 
 @import 'blocks/prose.css' layer(components);
