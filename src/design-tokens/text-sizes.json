@@ -6,6 +6,11 @@
   },
   "items": [
     {
+      "name": "Step 000",
+      "min": 12,
+      "max": 14
+    },
+    {
       "name": "Step 00",
       "min": 15,
       "max": 16
