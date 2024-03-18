@@ -4,7 +4,8 @@ More info: https://every-layout.dev/layouts/box/#the-generator
 */
 
 .box {
-    @apply text-dark bg-light;
+    background: var(--color-light);
+    color: var(--color-dark);
     padding: var(--space-s-m);
   }
   
@@ -13,6 +14,7 @@ More info: https://every-layout.dev/layouts/box/#the-generator
   }
   
   .box.invert {
-    @apply bg-dark text-light;
+    background: var(--color-dark);
+    color: var(--color-light);
   }
   
