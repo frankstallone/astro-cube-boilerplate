@@ -12,7 +12,7 @@ Uses:
 - [Tailwind CSS](https://tailwindcss.com/), a utility-first CSS framework, used as utility-second
 - [Partytown](https://partytown.builder.io/), for running third-party scripts in a web worker
 - [Astro Sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/), for generating a sitemap
-- Design tokens
+- Design tokens, bringing sanity to design decisions.
 
 Read more from Andy Bell's [A CSS project boilerplate
 ](https://piccalil.li/blog/a-css-project-boilerplate/).
