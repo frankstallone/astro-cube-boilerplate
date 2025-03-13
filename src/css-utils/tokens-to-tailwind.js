@@ -1,4 +1,4 @@
-const slugify = require('slugify');
+import slugify from 'slugify';
 
 /**
  * Converts human readable tokens into tailwind config friendly ones
@@ -17,4 +17,4 @@ const tokensToTailwind = tokens => {
   return response;
 };
 
-module.exports = tokensToTailwind;
+export default tokensToTailwind;

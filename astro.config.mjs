@@ -1,11 +1,14 @@
 import { defineConfig } from 'astro/config';
-import tailwind from "@astrojs/tailwind";
 import partytown from "@astrojs/partytown";
 import sitemap from "@astrojs/sitemap";
 
+import tailwindcss from "@tailwindcss/vite";
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind({
-    applyBaseStyles: false
-  }), partytown(), sitemap()]
+  integrations: [partytown(), sitemap()],
+
+  vite: {
+    plugins: [tailwindcss({applyBaseStyles: false})]
+  }
 });

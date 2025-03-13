@@ -1,20 +1,25 @@
-/*
+@utility box {
+  /*
 BOX
 More info: https://every-layout.dev/layouts/box/#the-generator
 */
+  background: var(--color-light);
+  color: var(--color-dark);
+  padding: var(--space-s-m);
 
-.box {
-    background: var(--color-light);
-    color: var(--color-dark);
-    padding: var(--space-s-m);
-  }
-  
-  .box * {
+  & * {
     color: inherit;
   }
-  
-  .box.invert {
+
+  &.invert {
     background: var(--color-dark);
     color: var(--color-light);
   }
-  
+}
+
+@utility invert {
+  &.box {
+    background: var(--color-dark);
+    color: var(--color-light);
+  }
+}

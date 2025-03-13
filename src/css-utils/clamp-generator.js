@@ -1,4 +1,4 @@
-const viewports = require('../design-tokens/viewports.json');
+import viewports from '../design-tokens/viewports.json';
 
 /**
  * Takes an array of tokens and sends back and array of name
@@ -36,4 +36,4 @@ const clampGenerator = tokens => {
   });
 };
 
-module.exports = clampGenerator;
+export default clampGenerator;

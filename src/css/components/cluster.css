@@ -1,4 +1,5 @@
-/*
+@utility cluster {
+  /*
 CLUSTER
 More info: https://every-layout.dev/layouts/cluster/
 A layout that lets you distribute items with consitent
@@ -14,8 +15,6 @@ horizontally. Can be any acceptable flexbox aligmnent value.
 --cluster-vertical-alignment How items should align vertically.
 Can be any acceptable flexbox alignment value.
 */
-
-.cluster {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gutter, var(--space-s-m));

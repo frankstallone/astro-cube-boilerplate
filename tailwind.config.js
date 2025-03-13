@@ -1,7 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import plugin from "tailwindcss/plugin";
-import postcss from "postcss";
-import postcssJs from "postcss-js";
 
 import clampGenerator from "./src/css-utils/clamp-generator.js";
 import tokensToTailwind from "./src/css-utils/tokens-to-tailwind.js";

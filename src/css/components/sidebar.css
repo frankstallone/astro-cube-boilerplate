@@ -1,4 +1,5 @@
-/* 
+@utility sidebar {
+  /* 
 SIDEBAR
 More info: https://every-layout.dev/layouts/sidebar/
 A layout that allows you to have a flexible main content area
@@ -18,19 +19,18 @@ between the sidebar and main content.
 EXCEPTIONS
 .sidebar[data-direction='rtl']: flips the sidebar to be on the right 
 */
-.sidebar {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gutter, var(--space-s-l));
-}
 
-.sidebar > :first-child {
-  flex-basis: var(--sidebar-target-width, 20rem);
-  flex-grow: 1;
-}
+  & > :first-child {
+    flex-basis: var(--sidebar-target-width, 20rem);
+    flex-grow: 1;
+  }
 
-.sidebar > :last-child {
-  flex-basis: 0;
-  flex-grow: 999;
-  min-width: var(--sidebar-content-min-width, 50%);
+  & > :last-child {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: var(--sidebar-content-min-width, 50%);
+  }
 }
